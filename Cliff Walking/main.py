@@ -11,7 +11,7 @@ for episode in range(n_episode):
 	Q = Environment.QTable(GenerateGrid())
 	
 
-	while not s == list([3,11]) or s in Q.cliff:
+	while not s == list([3,11]) or s not in Q.cliff:
 		direction = Policy(Q.table,0.1,s)
 		agent1.Move(direction, Q)
 		s_1 = agent1.Location()
