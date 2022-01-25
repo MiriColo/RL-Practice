@@ -8,5 +8,5 @@ A gridworld example from Sutton and Barto's "Reinforcement Learning" book that c
 
 The environment is a Cliff Walking shown in the figure below. The reward is everywhere -1 exept for the region marked as "The Cliff" where the reward is -100. 
 
-![](https://github.com/MiriColo/RL-Practice/blob/main/CliffWalking/figure/cliff.png) <!-- .element height="20%" width="20%" -->
+![image, 20%](https://github.com/MiriColo/RL-Practice/blob/main/CliffWalking/figure/cliff.png)
 
