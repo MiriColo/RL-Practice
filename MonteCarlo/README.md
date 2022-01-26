@@ -15,6 +15,8 @@ We implemented a Monte Carlo method with exploting starts for estimating the opt
 
 Method:
 
+<img src="https://github.com/MiriColo/RL-Practice/blob/main/MonteCarlo/figure/MonteCarlo.png" width="633" height="503">
+
 
 ## Result 
 
