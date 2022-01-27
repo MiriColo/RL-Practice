@@ -4,12 +4,10 @@ import agent
 from McEs import *
 from environment import *
 from agent import *
-import matplotlib
 import matplotlib.pyplot as plt
-from matplotlib import cm
 
 
-n_episodes = 10000000
+n_episodes = 1000000
 Q = GenerateQ()
 returns = np.full((2,10,2,11, n_episodes), 0, float)
 
