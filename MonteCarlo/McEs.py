@@ -1,5 +1,4 @@
 import numpy as np 
-import environment
 from environment import *
 from agent import *
 
