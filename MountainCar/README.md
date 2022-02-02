@@ -34,17 +34,18 @@ To convert the two continous state variable to binary feature we use grid-tiling
 
 In the first episode the car moves like this :
 
-
 <video src="
 https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car0.mp4"></video>
 
 After 100 episodes :
 
-<video src='mountain_car1.mp4' width=180/>  
+<video src="
+https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car1.mp4"></video>
 
 And after 400 episodes:
 
-<video src='mountain_car3.mp4' width=180/>  
+<video src="
+https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car3.mp4"></video>
 
 The figure below shows several learning curves for seme-gradient Sarsa method whith various step size
 
