@@ -33,6 +33,7 @@ To convert the two continous state variable to binary feature we use grid-tiling
 ## Results 
 
 In the first episode the car moves like this :
+
 https://user-images.githubusercontent.com/89472755/152194113-9a85dffd-7fde-4ffa-a8fd-14e3cd3558f3.mp4
 
 After 100 episodes :
