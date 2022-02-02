@@ -15,7 +15,7 @@ Its position x_t and velocity xdot_t are updated as follow
 <img src="https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/move.png" width="245" height="45">
 
 
-The bound operation enforces <img src="https://render.githubusercontent.com/render/math?math= -1.2 \leq x_{t+1} \leq 0.5"> and <img src="https://render.githubusercontent.com/render/math?math= -0.07 \leq \dot{x_{t+1}}\leq 0.07">. Each episode started from a random position <img src="https://render.githubusercontent.com/render/math?math= x \in [-0.6,0.4)">
+The bound operation enforces the position to be in the range [-1.2, 0.5] and the velocity [-0.07,0-07] . Each episode started from a random position in [0.6, 0.4)
 
 
 ## Method 
@@ -35,17 +35,14 @@ To convert the two continous state variable to binary feature we use grid-tiling
 In the first episode the car moves like this :
 https://user-images.githubusercontent.com/89472755/152194113-9a85dffd-7fde-4ffa-a8fd-14e3cd3558f3.mp4
 
-<video src="https://user-images.githubusercontent.com/89472755/152194113-9a85dffd-7fde-4ffa-a8fd-14e3cd3558f3.mp4"></video>
-
 After 100 episodes :
 
-<video src="
-https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car1.mp4"></video>
+https://user-images.githubusercontent.com/89472755/152194564-9e7e4920-7d17-4d55-938d-597f1089e384.mp4
+
 
 And after 400 episodes:
 
-<video src="
-https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car3.mp4"></video>
+https://user-images.githubusercontent.com/89472755/152194676-4624d029-f5c5-4689-b534-8675e7ef9739.mp4
 
 The figure below shows several learning curves for seme-gradient Sarsa method whith various step size
 
