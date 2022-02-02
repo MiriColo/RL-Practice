@@ -34,7 +34,9 @@ To convert the two continous state variable to binary feature we use grid-tiling
 
 In the first episode the car moves like this :
 
-https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car0.mp4
+
+<video src="
+https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car0.mp4"></video>
 
 After 100 episodes :
 
