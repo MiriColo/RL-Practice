@@ -9,11 +9,13 @@ This is an example took from Sutton and Barto's book "Reinforcement Learning", c
 ## Agent
 
 The car has three possible action: full throttle forward (+1), full throttle revese (-1) and zero throttle (0). 
-Its position $x_t$ and velocity $\dot{x_t}$ are updated as follow
+Its position x_t and velocity xdot_t are updated as follow
+
+
 <img src="https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/move.png" width="245" height="45">
 
 
-The bound operation enforces <img src="https://render.githubusercontent.com/render/math?math= -1.2 \leq x_{t+1} \leq 0.5"> and <img src="https://render.githubusercontent.com/render/math?math= -0.07 \leq \dot{x_{t+1}}\leq 0.07">. Each episode started from a random position <img src="https://render.githubusercontent.com/render/math?math= x \in [-0.6,0.4)>
+The bound operation enforces <img src="https://render.githubusercontent.com/render/math?math= -1.2 \leq x_{t+1} \leq 0.5"> and <img src="https://render.githubusercontent.com/render/math?math= -0.07 \leq \dot{x_{t+1}}\leq 0.07">. Each episode started from a random position <img src="https://render.githubusercontent.com/render/math?math= x \in [-0.6,0.4)">
 
 
 ## Method 
@@ -32,7 +34,7 @@ To convert the two continous state variable to binary feature we use grid-tiling
 
 In the first episode the car moves like this :
 
-<video src='mountain_car0.mp4' width=180/>  
+https://github.com/MiriColo/RL-Practice/blob/main/MountainCar/figure/mountain_car0.mp4
 
 After 100 episodes :
 
