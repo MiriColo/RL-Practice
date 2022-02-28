@@ -9,9 +9,9 @@ The maximum score is 200.
 
 We implemented PPO.
 
-<img src="https://github.com/MiriColo/RL-Practice/CartpolePPO/figure/ppopseudo.png" width="425" height="241">
+<img src="https://github.com/MiriColo/RL-Practice/blob/main/CartpolePPO/figure/ppopseudo.png" width="425" height="241">
 
 ## Result
 
-<img src="https://github.com/MiriColo/RL-Practice/CartpolePPO/figure/graph.png" width="607" height="446">
+<img src="https://github.com/MiriColo/RL-Practice/blob/main/CartpolePPO/figure/graph.png" width="607" height="446">
 
